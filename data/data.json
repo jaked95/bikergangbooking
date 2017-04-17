@@ -1,0 +1,21 @@
+{
+  "bands": [
+    {
+      "picture": "img/delmer.jpg",
+      "name": "Delmer Dennis",
+      "description": "Delmer Dennis is an indie band from Dallas, Tx.",
+
+
+    },
+    {
+      "picture": "img/hotflash.jpg",
+      "name": "Hot Flash Heat Wave",
+      "description": "Hot Flash Heat Wave is a band from San Francisco, CA.",
+    }
+    {
+      "picture": "img/innerwave.jpg",
+      "name": "Inner Wave",
+      "description": "Inner Wave is a band from Los Angeles, CA.", 
+    }
+  ]
+}
