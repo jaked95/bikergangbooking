@@ -1,0 +1,81 @@
+.viewSwitcher {
+    text-align: center;
+}
+
+.viewSwitcher li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.gift-idea-contributorPicture {
+    display: block;
+    margin: auto;
+}
+
+div.gallery {
+    box-sizing: border-box;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.card {
+    border: 1px dotted #888;
+    flex: 0 1 100%;
+    margin: 1em;
+    max-width: 20em;
+    position: relative;
+    display: inline-block;
+}
+
+div.card figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+div.card figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+div.card figcaption {
+    background: #444;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0.5em;
+    position: absolute;
+    top: 0;
+    border-radius: 0 0 1em 0;
+}
+
+[class^='band-'] {
+    font-weight: bold;
+}
+
+.add-to-compare {
+    width: 3em;
+    height: 3em;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: -1.5em;
+    right: -1.5em;
+    margin: 0.3em;
+    border: 0;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.add-to-compare:hover {
+    background: rgba(255, 128, 35, 1);
+    transform: rotate(360deg) scale(1.2);
+}
+
+.add-to-compare:before {
+    content: '\1F60D';
+}
+
+h1, h2 {
+    text-align: center;
+}
