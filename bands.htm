@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biker Gang Bands</title>
+    <link rel="stylesheet" href="jquery.css">
+    <link rel="stylesheet" href="final.css">
+    <script type="text/javascript">
+//for band roster sign up
+    //function init(){
+      //document.getElementById('joinR').onclick = show;
+
+    //}
+
+  //  function show(){
+    //  var bForm = document.getElementById('bandForm');
+
+    //  if (bForm )
+    //}
+
+  //  window.onload = init;
+    </script>
+    </script>
+</head>
+
+<body>
+        <div class="container">
+          <nav>
+          	   | <a href='index.php'>Home</a> | <a href='bands.htm'>Band Roster</a> | <a href='contact.htm'>Contact</a> | <a href='about.htm'>About</a> |
+          </nav>"
+
+
+            <h2>Biker Gang Roster</h2>
+
+            <ul class="viewSwitcher">
+                <li><button id='viewBands'>View Bands</button></li>
+                <li><button id='joinR'>Join the Roster</button></li>
+            </ul>
+
+            <section id="section-loader">
+
+            </section>
+            <!-- end of galler -->
+
+            <div class="bandForm" id="bandForm">
+              <form id="joinRoster" action="" method="post">
+
+              <div>
+                <label for="bname" id="bNameLabel">Band name: </label>
+                <input type="text" size="40" id="bname">
+              </div>
+              <div>
+                <label for="bDescription" id="bDescriptionLabel">Give us a brief description of your band: </label>
+                <textarea name="bDecription" form="joinRoster">Enter text here...</textarea>
+              </div>
+              <div>
+            		<label id="bWebsites">Streaming Sites: </label>
+            		<p>Let us know where we can find your music!</p>
+            		<input type="checkbox" name="bSites" value="soundcloud" id="site_soundcloud"> <label for="site_soundcloud">Soundcloud</label>
+            		<input type="checkbox" name="bSites" value="bandcamp" id="site_bandcamp"> <label for="site_bandcamp">Bandcamp</label>
+            		<input type="checkbox" name="bSites" value="spotify" id="site_spotify"> <label for="site_spotify">Spotify</label>
+            		<input type="checkbox" name="bSites" value="itunes" id="site_itunes"> <label for="site_itunes">iTunes</label>
+
+            	</div>
+            </div>
+
+        </div>
+        <!-- end of container -->
+
+
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="bands.js" charset="utf-8"></script>
+</body>
+
+</html>
