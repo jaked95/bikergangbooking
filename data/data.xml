@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bands>
+  <band>
+    <picture>img/delmer.jpg</picture>
+    <name>Delmer Dennis</name>
+    <description>Delmer Dennis is an indie band from Dallas, Tx.</description>
+  </band>
+  <band>
+    <picture>img/delmer.jpg</picture>
+    <name>Just Because</name>
+    <description>Mary Jo</description>
+  </band>
+  <band>
+    <picture>img/delmer.jpg</picture>
+    <name>Just Because</name>
+    <description>Mary Jo</description>
+  </band>
+</bands>
